@@ -1,1 +1,177 @@
+body {
+    background-color: lightblue;
+    color: blue;
+    font-family: Arial, sans-serif;
+}
 
+nav {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 15px;
+    margin: 0;
+}
+
+.hero {
+    background-color: #222;
+    padding: 80px 30px;
+    text-align: center;
+    background-image: url("skate.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    margin-left: 15px;
+    white-space: nowrap;
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.hero button {
+    background-color: yellow;
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: black;
+    color: white;
+}
+
+.products {
+    padding: 60px 30px;
+    text-align: center;
+  
+}
+
+.product-card {
+  transition: 0.3s;
+    background-color: white;
+    padding: 25px;
+    margin: 15px auto;
+    border-radius: 15px;
+  width: 100%;
+    max-width: 300px;
+  box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ddd;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  
+}
+ .product-card img {
+    width: 100%;
+    height: 220px;
+    abject-fit: contain;
+    border-radius: 10px;
+   margin-bottom: 15px;
+  }
+.product-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.product-card p:last-of-type {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.product-card button {
+  background-color: yellow;
+  color: black;
+  border: none;
+  transition: 0.3s;
+  padding: 10px  20px;
+  border-radius: 8px
+}
+.product-card button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+product-card img {
+  width: 100%;
+  border-radius: 10px;
+  
+}
+.product-card:hover{
+  transform: translatey(-8px);
+  
+}
+@media ( max-width: 600px) {
+  .product-card {
+    max-width: 90%;
+  
+  }
+ .btn {
+   display: online-block;
+   backgrand-color: yellow;
+   color: black;
+   padding: 12px  25px;
+   border: none;
+   border radius: 10px;
+   cursor: pointer;
+   font-size: 16px;
+   transition: 0.3s;
+   text-decoration: none;
+ }
+    .btn:hover {
+      backgrand-color: black;
+      color: white;
+    }
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: yellow;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 25px;
+}
+}
