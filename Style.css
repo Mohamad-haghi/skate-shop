@@ -175,3 +175,6 @@ product-card img {
     margin-top: 25px;
 }
 }
+body {
+    background-color: red important;
+}
